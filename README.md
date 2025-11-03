@@ -12,6 +12,20 @@ A Python-based keylogger developed for educational purposes to understand keyboa
 **Never use this tool without explicit permission on devices you don't own.** Unauthorized use of keyloggers is illegal in most jurisdictions.
 
 ## 🎯 Features
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/d2f83eb0-fb89-4bab-9c5a-fe7c74cb367d" alt="Feature 1" width="480" />
+      <br />
+      <sub><b>Script executed</b></sub>
+    </td>
+     <td align="center">
+      <img src="https://github.com/user-attachments/assets/987a1015-f4fc-4279-ad8b-5bd2373b29fb" alt="Feature 2" width="480" />
+      <br />
+      <sub><b>CSV example</b></sub>
+    </td>
+  </tr>
+</table>
 
 - **Word-by-word capture**: Accumulates characters into complete words for better readability
 - **Timestamp logging**: Records date and time for each keystroke/word
