@@ -33,7 +33,6 @@ A Python-based keylogger developed for educational purposes to understand keyboa
 - **CSV format**: Structured data storage for easy analysis in Excel or other tools
 - **Special key handling**: Logs special keys like Enter, Space, Backspace, Tab, etc.
 - **Background operation**: Runs invisibly without disrupting user activities
-- **Low resource consumption**: Minimal CPU and memory usage
 - **Persistent logging**: Appends to existing logs without overwriting previous data
 
 ## 📋 Requirements
@@ -73,16 +72,6 @@ python Keylogger.py
 - The keylogger will start capturing keystrokes
 - Press **ESC** to stop the keylogger
 - Logs are saved to `key_log.csv` in the same directory
-
-### CSV Output Format
-
-The output file `key_log.csv` contains the following columns:
-
-| Date       | Time     | Key/Word | Application              |
-|------------|----------|----------|--------------------------|
-| 2025-11-02 | 14:30:15 | hello    | chrome.exe - Google Chrome |
-| 2025-11-02 | 14:30:16 | [SPACE]  | chrome.exe - Google Chrome |
-| 2025-11-02 | 14:30:18 | world    | chrome.exe - Google Chrome |
 
 ### Auto-start on Windows Login (Optional)
 
